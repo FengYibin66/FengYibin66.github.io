@@ -9,7 +9,7 @@ html, body {
 
 .overlay {
     flex-grow: 1; /* Allow overlay to fill available space */
-    background-image: url('./pictures/pictures_for_work/keyi.jpg');
+    background-image: url('./pictures/keyi.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
