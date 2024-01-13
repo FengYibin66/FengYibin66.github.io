@@ -9,7 +9,7 @@ html, body {
 
 .overlay {
     flex-grow: 1; /* Allow overlay to fill available space */
-    background-image: url('https://curly-space-fiesta-4jg47gppvv7cj7q6-8080.app.github.dev/pictures/keyi2.jpg');
+    background-image: url('./pictures/pictures_for_work/keyi.jpg');
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
