@@ -62,19 +62,16 @@ footer {
 .footer-content {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start; /* Align items to the start of the flex container */
+    align-items: flex-start; /* Align items to the start of the flex container vertically */
 }
 
-/* Individual footer sections */
 .contact-info, .follow-info {
-    flex: 1;
+    flex: 1; /* Allows both containers to take up equal space */
     padding: 10px;
-    display: flex; /* Use flexbox for layout */
+    display: flex;
     flex-direction: column; /* Stack elements vertically */
-    justify-content: center; /* Center content vertically */
 }
 
-/* Vertical line between sections */
 .contact-info {
     border-right: 2px solid white;
     text-align: right; /* Align text to the right */
@@ -82,9 +79,42 @@ footer {
 }
 
 .follow-info {
-    text-align: left; /* Align text to the left */
     padding-left: 20px; /* Add padding to the left of follow info */
+    text-align: left; /* Align text to the left */
 }
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px; /* Add space below the title */
+}
+
+.follow-info p {
+    margin: 0; /* Remove default margins */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px; /* Space between icons */
+    align-items: center; /* Align the icons with the follow me text */
+    margin-top: -5px; /* Align the icons with the contact information */
+}
+
+.social-icons a {
+    margin: 0; /* Remove margin around icons */
+    transition: transform 0.3s ease; /* Smooth transform effect on hover */
+}
+
+.social-icons a img {
+    width: 24px; /* Icon size, adjust as needed */
+    height: 24px; /* Icon size, adjust as needed */
+    border-radius: 6px; /* This will create rounded corners for 24x24 icons */
+}
+
+.social-icons a:hover img {
+    transform: scale(1.1); /* Slightly enlarges the icon on hover */
+}
+
+
 
 /* Title styling */
 .title {
