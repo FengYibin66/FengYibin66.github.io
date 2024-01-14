@@ -67,7 +67,7 @@ footer {
 
 .contact-info, .follow-info {
     flex: 1; /* Allows both containers to take up equal space */
-    padding: 10px;
+    padding: 5px;
     display: flex;
     flex-direction: column; /* Stack elements vertically */
 }
@@ -105,6 +105,7 @@ footer {
 }
 
 .social-icons a img {
+    margin-top: 8px; /* Align the icons with the contact information */
     width: 24px; /* Icon size, adjust as needed */
     height: 24px; /* Icon size, adjust as needed */
     border-radius: 6px; /* This will create rounded corners for 24x24 icons */
