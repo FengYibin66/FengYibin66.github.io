@@ -433,3 +433,22 @@ h2 {
     max-width: 80%; /* 最大宽度，根据需要调整 */
     text-align: center; /* 文本居中 */
 }
+
+
+/* 获奖情况 */
+
+.card-img-top {
+    height: 200px; /* Fixed height */
+    width: 100%; /* Full width */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
