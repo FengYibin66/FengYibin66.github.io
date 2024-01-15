@@ -1,9 +1,3 @@
-// JavaScript 文件: script.js
-document.addEventListener('DOMContentLoaded', function() {
-    // JavaScript to make site interactive
-    alert('Welcome to My Website!');
-});
-
 document.querySelectorAll('.clickable-card').forEach(card => {
     card.addEventListener('click', function() {
         document.getElementById('modalTitle').textContent = this.querySelector('.card-title').textContent;
