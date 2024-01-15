@@ -469,6 +469,13 @@ h2 {
     background-color: rgba(0,0,0,0.4); 
 }
 
+#modalTitle {
+    font-weight: bold;
+    text-align: center;
+    /* Add any other styling as needed */
+}
+
+
 .modal-content {
     position: relative;
     background-color: #fefefe;
