@@ -1,13 +1,25 @@
-
-//JavaScript for Interactivity
-//Your `gallery.js` might include the following:
 function filterGallery(category) {
     var items = document.getElementsByClassName('gallery-item');
+    var buttons = document.getElementsByClassName('gallery-filter');
+    
+    // Loop through gallery items and display only those that match the category
     for (var i = 0; i < items.length; i++) {
         if (category === 'all' || items[i].getAttribute('data-category') === category) {
             items[i].style.display = '';
         } else {
             items[i].style.display = 'none';
+        }
+    }
+
+    // Remove 'active' class from all buttons
+    for (var j = 0; j < buttons.length; j++) {
+        buttons[j].classList.remove('active');
+    }
+
+    // Add 'active' class to the button that matches the category
+    for (var k = 0; k < buttons.length; k++) {
+        if (buttons[k].getAttribute('data-category') === category) {
+            buttons[k].classList.add('active');
         }
     }
 }
