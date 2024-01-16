@@ -526,7 +526,7 @@ h2 {
 }
 
 .gallery-filter.active {
-    background-color: #ddd; /* Or any other color that signifies an active state */
+    background-color: #84bf69; /* Or any other color that signifies an active state */
     color: #333;
 }
 

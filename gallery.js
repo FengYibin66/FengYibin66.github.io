@@ -35,3 +35,14 @@ function closeLightbox() {
     var lightbox = document.getElementById('lightbox');
     lightbox.classList.remove('active');
 }
+
+window.onload = function() {
+    var galleryItems = document.getElementsByClassName('gallery-item');
+    for (var i = 0; i < galleryItems.length; i++) {
+        var img = galleryItems[i].getElementsByTagName('img')[0];
+        img.onload = function() {
+            this.parentElement.style.width = this.naturalWidth + 'px';
+            this.parentElement.style.height = this.naturalHeight + 'px';
+        };
+    }
+};
