@@ -55,31 +55,139 @@
     
     <div class="gallery">
         <div class="gallery-menu">
-            <button class="gallery-filter" onclick="filterGallery('all')">All</button>
-            <button class="gallery-filter" onclick="filterGallery('travel')">Travel</button>
-            <button class="gallery-filter" onclick="filterGallery('family')">Family</button>
-            <button class="gallery-filter" onclick="filterGallery('hobbies')">Hobbies</button>
+            <div class="gallery-menu">
+                <button class="gallery-filter" onclick="filterGallery('all', event)">All</button>
+                <p class="category-description">Description for All</p>
+                <button class="gallery-filter" onclick="filterGallery('imperial', event)">Imperial</button>
+                <p class="category-description">Travel Description</p>
+                <button class="gallery-filter" onclick="filterGallery('CGCU', event)">CGCU</button>
+                <p class="category-description">Family Description</p>
+                <button class="gallery-filter" onclick="filterGallery('McAllister', event)">McAllister</button>
+                <p class="category-description">Hobbies Description</p>
+            </div>
+            
         </div>
         <div class="gallery-content">
-            <div class="gallery-item" data-category="travel">
-                <img src="./pictures/life/CGCU/p1.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+            <!-- CGCU活动 -->
+
+            <div class="gallery-item" data-category="CGCU">
+                <img src="./pictures/gallery/CGCU/p1.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">City and Guilds College Union</p>
+                <p class="photo-description">Brief description of the photo...</p>
             </div>
 
-            <div class="gallery-item" data-category="travel">
-                <img src="./pictures/life/CGCU/p2.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+
+            <div class="gallery-item" data-category="CGCU">
+                <img src="./pictures/gallery/CGCU/p2.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">City and Guilds College Union</p>
+                <p class="photo-description">哈哈哈哈</p>
             </div>
+
+            <div class="gallery-item" data-category="CGCU">
+                <img src="./pictures/gallery/CGCU/p3.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">City and Guilds College Union</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="CGCU">
+                <img src="./pictures/gallery/CGCU/p4.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">City and Guilds College Union</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="CGCU">
+                <img src="./pictures/gallery/CGCU/p5.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">City and Guilds College Union</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <!-- 帝国理工活动 -->
+
+            <div class="gallery-item" data-category="imperial">
+                <img src="./pictures/gallery/Imperial/2022SpringFestival.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Imperial Structural Family at 2022 SpringFestival</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="imperial">
+                <img src="./pictures/gallery/Imperial/graduate.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Graduatation</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="imperial">
+                <img src="./pictures/gallery/Imperial/QueensTower.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Queens Tower at Imperial</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <!-- McAllister -->
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/construction_team.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Construction Team</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/construction_man.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Construction Man</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/Mymaster_Mo.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">My Master Mr.Mo</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/Catherine.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Catherine</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/Florin.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">My Line Manager Mr.Florin</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/James.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Mr.James</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/jucan.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">jucan</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/Ping_pong.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Ping_pong Tornament 2022!</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            <div class="gallery-item" data-category="McAllister">
+                <img src="./pictures/gallery/McAllister/Thames.jpg" alt="Travel Photo 1" onclick="openLightbox(this.src)">
+                <p class="category-title">Thames Water</p>
+                <p class="photo-description">哈哈哈哈</p>
+            </div>
+
+            
             <!-- Repeat for other categories and photos -->
         </div>
     </div>
 
     <div id="lightbox" class="lightbox" onclick="closeLightbox()">
         <img id="lightbox-image" src="" alt="Enlarged Image">
-        <button class="close-btn" onclick="closeLightbox()">&times;</button>
     </div>
 
 
 
-    
 
     <footer class="bg-dark text-white text-center p-3">
         <div class="footer-content">

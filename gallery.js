@@ -1,28 +1,35 @@
 function filterGallery(category) {
     var items = document.getElementsByClassName('gallery-item');
-    var buttons = document.getElementsByClassName('gallery-filter');
+    var filters = document.getElementsByClassName('gallery-filter');
     
-    // Loop through gallery items and display only those that match the category
+    console.log('Filtering by category:', category); // This is now in the correct place
+    
+    // Remove 'active' class from all filter buttons
+    for (var i = 0; i < filters.length; i++) {
+        filters[i].classList.remove('active');
+    }
+    
+    // Add 'active' class to the clicked filter button
+    event.target.classList.add('active');
+    
     for (var i = 0; i < items.length; i++) {
+        console.log('Current item category:', items[i].getAttribute('data-category')); // Moved inside the loop
+        console.log('Item display style before:', items[i].style.display); // Moved inside the loop
+
+        // Check if the current item matches the selected category or 'all'
         if (category === 'all' || items[i].getAttribute('data-category') === category) {
-            items[i].style.display = '';
+            items[i].style.display = ''; // Show the item
+            items[i].classList.add('show-title'); // Show the title
+            items[i].classList.add('show-description'); // Show the description
         } else {
-            items[i].style.display = 'none';
-        }
-    }
-
-    // Remove 'active' class from all buttons
-    for (var j = 0; j < buttons.length; j++) {
-        buttons[j].classList.remove('active');
-    }
-
-    // Add 'active' class to the button that matches the category
-    for (var k = 0; k < buttons.length; k++) {
-        if (buttons[k].getAttribute('data-category') === category) {
-            buttons[k].classList.add('active');
+            items[i].style.display = 'none'; // Hide the item
+            items[i].classList.remove('show-title'); // Hide the title
+            items[i].classList.remove('show-description'); // Hide the description
         }
     }
 }
+
+
 
 function openLightbox(src) {
     var lightbox = document.getElementById('lightbox');
@@ -35,14 +42,3 @@ function closeLightbox() {
     var lightbox = document.getElementById('lightbox');
     lightbox.classList.remove('active');
 }
-
-window.onload = function() {
-    var galleryItems = document.getElementsByClassName('gallery-item');
-    for (var i = 0; i < galleryItems.length; i++) {
-        var img = galleryItems[i].getElementsByTagName('img')[0];
-        img.onload = function() {
-            this.parentElement.style.width = this.naturalWidth + 'px';
-            this.parentElement.style.height = this.naturalHeight + 'px';
-        };
-    }
-};
