@@ -5,7 +5,9 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.querySelectorAll('.clickable-card').forEach(card => {
+    
     card.addEventListener('click', function() {
+        console.log("calledcalledcalled")
         document.getElementById('modalTitle').textContent = this.querySelector('.card-title').textContent;
         document.getElementById('modalImage').src = this.querySelector('img').src;
         document.getElementById('modalDescription').textContent = this.querySelector('.card-text').textContent;
