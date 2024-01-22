@@ -1,25 +1,31 @@
-# weekly report
+# Yibin's Weekly report
 
 One or two sentences providing an overview of what the project does.
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Credits](#credits)
-- [License](#license)
+- [Completed Tasks(Past Week)](#Completed Tasks (Past Week))
+- [Pending Issues](#Pending Issues)
+- [Planned Tasks(Coming Week)](#Planned Tasks(Coming Week))
 
-## Installation
+
+## Completed Tasks (Past Week)
 
 Steps to install the project/application:
 1. Step one
 2. Step two
 3. Step three
 
-## Usage
+## Pending Issues
 
-How to use the project/application:
+Steps to install the project/application:
+1. Step one
+2. Step two
+3. Step three
 
-```bash
-Command to run the application
+## Planned Tasks(Coming Week)
+
+Steps to install the project/application:
+1. Step one
+2. Step two
+3. Step three
