@@ -4,9 +4,9 @@ One or two sentences providing an overview of what the project does.
 
 ## Table of Contents
 
-- [Completed Tasks(Past Week)](#Completed Tasks (Past Week))
-- [Pending Issues](#Pending Issues)
-- [Planned Tasks(Coming Week)](#Planned Tasks(Coming Week))
+- [Completed Tasks(Past Week)](#completed-tasks-past-week)
+- [Pending Issues](#pending-issues)
+- [Planned Tasks(Coming Week)](#planned-tasks-coming-week)
 
 
 ## Completed Tasks (Past Week)
