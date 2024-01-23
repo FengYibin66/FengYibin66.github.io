@@ -1,0 +1,31 @@
+# Yibin's Weekly report
+
+Weekly report (15/01/2024 - 22/01/2024)
+
+## Table of Contents
+
+- [Completed Tasks(Past Week)](#completed-tasks-past-week)
+- [Pending Issues](#pending-issues)
+- [Planned Tasks(Coming Week)](#planned-tasks-coming-week)
+
+
+## Completed Tasks (Past Week)
+
+Steps to install the project/application:
+1. engaged Lab/Indivadual/Project meetings
+2. Hold a meeting with Tianqi to confirm my working project
+   - Confirm that My working project is "Multi-agent for Social Influence" [Current - May]
+   - After the aforementioned project is finished, I need to undertake a project for which I will be primarily responsible.(Multi-agent for Mental illness)
+3. Review the slides and relating essays to "Multi-agent for Social Influence"
+
+## Pending Issues
+
+1. Not for now
+
+## Planned Tasks(Coming Week)
+
+1. Seek out research papers related to evaluating the impact of social influence on individuals.
+2. Develop a survey or assessment tool to measure the extent of social influence on individuals.
+3. Attend the required meetings (Lab/Indivadual/Project meetings)
+4. Read research essays about Mental Health/ Multi-agent for Mental Health
+
