@@ -20,7 +20,7 @@ html, body {
     display: flex;
     justify-content: center; /* Center children horizontally */
     align-items: center; /* Center children vertically */
-    min-height: 250vh; /*
+    min-height: 250vh;
 }
 
 .overlay::before {
