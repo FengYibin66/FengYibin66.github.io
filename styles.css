@@ -262,6 +262,10 @@ h2 {
     .text-muted {
         font-size: 0.8rem;
     }
+
+    .worked_projects-item {
+        flex: 1 1 100%; /* 在小屏幕上占据整个宽度 */
+    }
 }
 
 /* ------------------------------------------------Style for the software proficiency sections------------------------------------------------ */
@@ -417,22 +421,6 @@ h2 {
     }
 }
 
-
-.image-caption {
-    font-size: 1em; /* 调整字号大小 */
-    color: #0056b3; /* 标题颜色 */
-    font-weight: bold; /* 加粗 */
-    margin-top: 0.5em; /* 顶部间距 */
-    margin-bottom: 0.25em; /* 底部间距 */
-}
-
-.image-explanation {
-    font-size: 0.9em; /* 调整字号大小，通常比标题小 */
-    color: #333; /* 说明文本颜色 */
-    margin-bottom: 1em; /* 底部间距 */
-    max-width: 80%; /* 最大宽度，根据需要调整 */
-    text-align: center; /* 文本居中 */
-}
 
 
 /* 获奖情况 */
@@ -623,4 +611,48 @@ h2 {
     display: block; /* Show when the item or category is active */
 }
 
+
+/* 做过的项目部分 */
+
+/* Worked Projects 图像画廊样式 */
+.worked_projects-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.worked_projects-item {
+    flex: 1 1 300px; /* 初始占用宽度 */
+    max-width: 500px; /* 最大宽度 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.worked_projects-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.worked_projects-caption{
+    text-align: center;
+    font-size: 1em; /* 调整字号大小 */
+    color: #0056b3; /* 标题颜色 */
+    font-weight: bold; /* 加粗 */
+    margin-top: 0.5em; /* 顶部间距 */
+    margin-bottom: 0.25em; /* 底部间距 */
+}
+
+.worked_projects-explanation {
+    text-align: center;
+    font-size: 0.9em; /* 调整字号大小，通常比标题小 */
+    color: #333; /* 说明文本颜色 */
+    margin-bottom: 1em; /* 底部间距 */
+    max-width: 80%; /* 最大宽度，根据需要调整 */
+    text-align: center; /* 文本居中 */
+}
 
