@@ -656,3 +656,8 @@ h2 {
     text-align: center; /* 文本居中 */
 }
 
+.project-navbar {
+    background-color: #9be287 !important; /* 更改第二个导航栏的背景颜色 */
+    border-radius: 25px;
+    
+}

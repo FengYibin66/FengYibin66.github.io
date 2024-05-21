@@ -49,12 +49,40 @@
             </div>
         </div>
     </nav>
+
+    
+
     <main class="container mt-5">
         <h1 class="text-center mb-4">Worked Projects</h1>
-
+        <!-- 项目导航栏 -->
+        <nav class="navbar navbar-expand-lg navbar-light project-navbar mt-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">🔍Project Navigation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#projectNavbar" aria-controls="projectNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="projectNavbar">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tripper">Tripper</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#podium-tower">Podium Single Tower</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#steel-frame">Steel Frame Office Building</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#lattice-structures">Lattice Structures</a>
+                        </li>
+                        <!-- Add more nav items here for other projects -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <!-- ----------------------------------------------------------------------------- -->
         <!-- Tripper -->
-        <section class="work-experience-item mb-5">
+        <section class="work-experience-item mb-5" id="tripper">
             <h2>Tripper - the tour guide of the world 🌍 </h2>
             <!-- List of key tasks and achievements -->
 
@@ -71,6 +99,11 @@
             </ul>
         </section>
 
+        <h3>🔧 技术栈 Tech Stack</h3>
+        <p><strong>Front End:</strong> React, JavaScript, HTML, CSS |
+        <strong>Back End:</strong> FastAPI, Python, PostgreSQL, Docker |
+        <strong>Webpage Design:</strong> Figma |
+        <strong>Other Technologies:</strong> REST APIs, OAuth 2.0</p>
     
 
         <section class="video-section mb-5">
@@ -82,18 +115,18 @@
         <div class="text-center">
             <p>For detailed information, please view the provided Materials</p>
             <a href="./documents/worked_projects/tripper/5007_Final report.pdf" target="_blank" class="btn btn-primary">
-                Detailed report for Tripper (PDF)
+                📄Detailed report for Tripper (PDF)
             </a>
         </div>
 
         <div class="text-center">
             <p>For detailed Wireframe diagrams, please view the provided Materials</p>
             <a href="./documents/worked_projects/tripper/Figma_Wireframe.pdf" target="_blank" class="btn btn-primary">
-                Figma_Wireframe for Tripper (PDF)
+                📄Figma_Wireframe for Tripper (PDF)
             </a>
         </div>
 
-        <h2 class="text-center mb-4">Key Functions</h2>
+        <h2 class="text-center mb-4">🔑Key Functions</h2>
         <div class="worked_projects-gallery">
             <div class="worked_projects-item">
                 <img src="./pictures/pictures%20for%20projects/Tripper/Functionality/Home Page.png" alt="overview">
@@ -212,7 +245,7 @@
             </div>
         </div>
 
-        <h2 class="text-center mb-4">Third-Party APIs</h2>
+        <h2 class="text-center mb-4">🌐Third-Party APIs</h2>
 
         <div class="worked_projects-gallery">
             <div class="worked_projects-item">
@@ -224,8 +257,8 @@
         <!-- ----------------------------------------------------------------------------- -->
 
         <!-- Project 1: Podium single tower structure -->
-        <section class="work-experience-item mb-5">
-            <h2>Comprehensive Detailed Design& Research for a 22-story Podium Single Tower Structure</h2>
+        <section class="work-experience-item mb-5" id="podium-tower">
+            <h2>Comprehensive Detailed Design& Research for a 22-story Podium Single Tower 🏢 Structure</h2>
             <!-- List of key tasks and achievements -->
             <ul>
                 <li>A complete Design Package including Design& Research Report, Engineering Drawings, and Calculation Report.</li>
@@ -234,6 +267,13 @@
                 <!-- More items as needed -->
             </ul>
         </section>
+
+        <h3>🔧 Tech Stack</h3>
+        <p><strong>Structural Design:</strong> SAP2000, ETABS |
+        <strong>Architectural Design:</strong> AutoCAD, Revit |
+        <strong>Analysis:</strong> MATLAB, Python, Excel |
+        <strong>Rendering:</strong> Twinmotion, Lumion |
+        <strong>Documentation:</strong> Microsoft Office, LaTeX</p>
 
         <!-- Video Section文件太大了, 算了算了 -->
         <section class="video-section mb-5">
@@ -246,7 +286,7 @@
 
 
         <!-- 图片部分 -->
-        <h2 class="text-center mb-4">Rendering Pictures</h2>
+        <h2 class="text-center mb-4">🖼️ Rendering Pictures</h2>
 
         <div class="worked_projects-gallery">
             
@@ -288,7 +328,7 @@
 
         <div class="text-center">
             <a href="./documents/worked_projects/final_design_research_project/Drawings-Yibin Feng-Prof. Vollumn.pdf" target="_blank" class="btn btn-primary">
-                View Technical Drawings (PDF)
+                📄View Technical Drawings (PDF)
             </a>
         </div>
 
@@ -330,10 +370,10 @@
         </div>
         
 
-        <h2 class="text-center mb-4">Detailed calculation report</h2>
+        <h2 class="text-center mb-4">📊 Detailed calculation report</h2>
         <div class="text-center">
             <a href="./documents/worked_projects/final_design_research_project/Calculation Report Final.pdf" target="_blank" class="btn btn-primary">
-                View Detailed Calculation Report (PDF)
+                📑View Detailed Calculation Report (PDF)
             </a>
         </div>
 
@@ -353,9 +393,9 @@
         <h2 class="text-center mb-4">Final Design Report</h2>
         <div class="text-center">
             <a href="./documents/worked_projects/final_design_research_project/Design report final.pdf" target="_blank" class="btn btn-primary">
-                View Final Design Report (PDF)
+                📑View Final Design Report (PDF)
             </a>
-
+        </div>
 
         <div class="worked_projects-gallery">
             
@@ -400,17 +440,16 @@
                 <img src="./pictures/pictures for projects/final_design_report/Final_Design_Report/Lighting comparison between flat slab and traditional beam-to-slab system.png" alt="overview">
                 <p class="worked_projects-caption">Lighting comparison between flat slab and traditional beam-to-slab system</p>
                 <p class="worked_projects-explanation"> </p>
-            </div>
-
-
-    
+            </div>   
             <!-- 其他图片项 -->
         </div>
 
 
-        <!-- Sustainable Design and Analysis of a Nine-Story Steel Frame Office Building -->
-        <section class="work-experience-item mb-5">
-            <h2>Sustainable Design and Analysis of a Nine-Story Steel Frame Office Building</h2>
+        <!--新的项目 钢结构建筑设计 Sustainable Design and Analysis of a Nine-Story Steel Frame Office Building -->
+
+
+        <section class="work-experience-item mb-5" id="steel-frame">
+            <h2>🏢Sustainable Design and Analysis of a Nine-Story Steel Frame Office Building</h2>
             <!-- List of key tasks and achievements -->
             <ul>
                 <li><strong>Innovative Structural Solutions:</strong> Design of composite slabs, beams, and a cantilever truss system to address site-specific challenges.</li>
@@ -418,15 +457,74 @@
                 <li><strong>Precise Connection Design:</strong> Meticulous engineering of beam-beam, beam-column, and bracing connections for structural integrity.</li>
                 <li><strong>Comprehensive Analysis:</strong> Parametric study to explore alternative approaches and drive future enhancements.</li>
                 <li><strong>Integrated Documentation:</strong> Extensive reporting with detailed drawings and calculations, ensuring transparency and precision in every aspect of the design.</li>
-
-
-
                 <!-- More items as needed -->
             </ul>
         </section>
 
+        <h3>🔧 Tech Stack</h3>
+        <p><strong>Structural Design:</strong> SAP2000, Autodesk Revit |
+        <strong>Architectural Design:</strong> AutoCAD |
+        <strong>Analysis:</strong> Python, MATLAB, Excel |
+        <strong>Rendering:</strong> Twinmotion |
+        <strong>Documentation:</strong> Microsoft Office, LaTeX</p>
+
+        <h3 class="text-center mb-4">Steel Structure Detailed Design</h3>
+        <div class="text-center">
+            <a href="./documents/worked_projects/steel structure design/Steel Structural Design.pdf" target="_blank" class="btn btn-primary">
+                📄View Steel Structure Detailed Design (PDF)
+            </a>
+        </div>
+
+        <div class="worked_projects-gallery">
+            
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Global Structural Model for Proposal 1 (SAP2000).png" alt="overview">
+                <p class="worked_projects-caption">OverView</p>
+                <p class="worked_projects-explanation">Global Structural Model for Proposal 1 (SAP2000)</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Global Structural Model for Proposal 2 (Autodesk).png" alt="overview">
+                <p class="worked_projects-caption">OverView</p>
+                <p class="worked_projects-explanation">Global Structural Model for Proposal 2 (Autodesk)</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Ground FloorArchitectural Layout.png" alt="overview">
+                <p class="worked_projects-caption">OverView</p>
+                <p class="worked_projects-explanation">Ground FloorArchitectural Layout</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Composite Slab Design.png" alt="overview">
+                <p class="worked_projects-caption">Composite Slabs Design</p>
+                <p class="worked_projects-explanation">Design Criteria:Fire rating, deflection checks, and manufacturer’s data considered. | ULS and SLS Checks</p>
+
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/3D View for Global Bracing System in Proposal 1 (Autodesk CAD).png" alt="overview">
+                <p class="worked_projects-caption">Bracing Design</p>
+                <p class="worked_projects-explanation">3D View for Global Bracing System in Proposal 1 (Autodesk CAD)</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Global layout of the bracing system (in SAP2000).png" alt="overview">
+                <p class="worked_projects-caption">Bracing Design</p>
+                <p class="worked_projects-explanation">Global layout of the bracing system (in SAP2000)</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Isolated cantilever region.png" alt="overview">
+                <p class="worked_projects-caption">Isolated cantilever region</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/column-column connections (8 bolts per column).png" alt="overview">
+                <p class="worked_projects-caption">Connection design</p>
+                <p class="worked_projects-explanation">column-column connections (8 bolts per column)</p>
+            </div>
+            <div class="worked_projects-item">
+                <img src="./pictures/pictures for projects/steel structure design/Beam Section with Critical Section.png" alt="overview">
+                <p class="worked_projects-caption">Beam Section with Critical Section</p>
+            </div>
+        </div>
+
         <!-- Project 2: Lattice Structures Analysis -->
-        <section class="work-experience-item mb-5">
+        <section class="work-experience-item mb-5" id="lattice-structures">
             <h2>Analysis of Hexagonal and Triangular Lattice Structures in MATLAB</h2>
             <!-- List of key tasks and achievements -->
             <ul>
