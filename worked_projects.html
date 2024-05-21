@@ -57,7 +57,7 @@
         <!-- 项目导航栏 -->
         <nav class="navbar navbar-expand-lg navbar-light project-navbar mt-3">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">🔍Project Navigation</a>
+                <a class="navbar-brand" href="#">🔍Navigation</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#projectNavbar" aria-controls="projectNavbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -65,6 +65,9 @@
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
                             <a class="nav-link" href="#tripper">Tripper</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#bitcoin_pre">Bitcoin Prediction</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#podium-tower">Podium Single Tower</a>
@@ -80,6 +83,7 @@
                 </div>
             </div>
         </nav>
+        
         <!-- ----------------------------------------------------------------------------- -->
         <!-- Tripper -->
         <section class="work-experience-item mb-5" id="tripper">
@@ -255,6 +259,67 @@
             </div>
         </div>
         <!-- ----------------------------------------------------------------------------- -->
+
+        <!-- 比特币价格预测的 -->
+        <section class="work-experience-item mb-5" id = "bitcoin_pre">
+            <h2>Bitcoin Price Prediction</h2>
+
+            <p>This study aims to create an accurate sequence prediction model to forecast Bitcoin price trends. The publicly available dataset is from <a href="https://www.kaggle.com/datasets/valeriovaccaro/cryptocoinshistoricalprices/data" target="_blank">Kaggle</a>, covering Bitcoin price data from May 5, 2013, to October 23, 2022.</p>
+            
+            <h3>Data Processing and Feature Engineering</h3>
+            <p><strong>Data Processing:</strong> Cleaned data, handled missing values and anomalies, converted timestamps to datetime format.</p>
+            <p><strong>Feature Engineering:</strong> Calculated VWAP, selected monthly data to reduce noise, performed stationarity tests, and STL decomposition.</p>
+            <div class="worked_projects-gallery">
+            
+                <div class="worked_projects-item">
+                    <img src="./pictures/pictures%20for%20projects/bitcoin price prediction/close price against time.png" alt="overview">
+                    <p class="worked_projects-caption">Close price against time</p>
+                    <p class="worked_projects-explanation">Dayly, Monthly, Seasonally and Yearly</p>
+                </div>
+                <div class="worked_projects-item">
+                    <img src="./pictures/pictures%20for%20projects/bitcoin price prediction/Seasonal and Trend decomposition visualization.png" alt="overview">
+                    <p class="worked_projects-caption">Seasonal and Trend decomposition visualization</p>
+                </div>
+            </div>
+            
+            <h3>Model Development</h3>
+            <div class="worked_projects-gallery">
+            
+                <div class="worked_projects-item">
+                    <img src="./pictures/pictures%20for%20projects/bitcoin price prediction/ARIMA Model Prediction Result.png" alt="overview">
+                    <p class="worked_projects-caption">ARIMA Model</p>
+                    <p class="worked_projects-explanation">Implemented time series prediction through stationarity tests and parameter optimization</p>
+                </div>
+                <div class="worked_projects-item">
+                    <img src="./pictures/pictures%20for%20projects/bitcoin price prediction/Diagram of MSE, RMSE, MAE statistical histogram of 7 models.png" alt="overview">
+                    <p class="worked_projects-caption">Parameters Comparison</p>
+                    <p class="worked_projects-explanation">MSE, RMSE, MAE statistical histogram of 7 models</p>
+                </div>
+            </div>
+
+            <p><strong>LightGBM:</strong> Improved training efficiency and prediction accuracy using histogram optimization and leaf-wise growth strategy.</p>
+            <p><strong>XGBoost:</strong> Achieved high accuracy predictions by combining gradient boosting and regularization.</p>
+            <p><strong>Transformer:</strong> Processed complex sequences efficiently through self-attention mechanisms and parallel processing.</p>
+            <p><strong>Prophet:</strong> Modeled seasonality and trends in time series data.</p>
+            <p><strong>LSTM:</strong> Captured long-term dependencies in time series data using long short-term memory networks.</p>
+            <p><strong>SVM:</strong> Implemented classification and regression predictions through kernel functions and support vectors.</p>
+            
+            <h3>Model Comparison</h3>
+            <p><strong>Deep Learning Models:</strong> Performed best, effectively capturing long-term dependencies.</p>
+            <p><strong>Seasonal Models:</strong> Handled seasonality and trends well.</p>
+            <p><strong>Traditional Machine Learning Models:</strong> Struggled with long-term dependencies.</p>
+            
+            <h3>🔧 Tech Stack</h3>
+            <p><strong>Data Processing:</strong> Python, Pandas</p>
+            <p><strong>Feature Engineering:</strong> VWAP, STL Decomposition</p>
+            <p><strong>Machine Learning Models:</strong> ARIMA, LightGBM, XGBoost, SVM</p>
+            <p><strong>Deep Learning Models:</strong> Transformer, LSTM</p>
+            <p><strong>Time Series Models:</strong> Prophet</p>
+            <p><strong>Libraries:</strong> scikit-learn, statsmodels, lightgbm, xgboost, pytorch, fbprophet</p>
+            <p><strong>Evaluation Metrics:</strong> MSE, RMSE, MAE</p>
+        </section>
+        
+
 
         <!-- Project 1: Podium single tower structure -->
         <section class="work-experience-item mb-5" id="podium-tower">
